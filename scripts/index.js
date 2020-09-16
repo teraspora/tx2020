@@ -6,6 +6,8 @@ document.onreadystatechange = () => {
    
         // Get reference to canvas, set dimensions
         const canvas = document.getElementById(`canv`);
+        const main = document.getElementById(`main`);
+        // main.onmousemove = handleMouseMove;
         let canvasSize = [document.body.clientWidth, document.body.clientHeight];
         let [w, h] = canvasSize;
         [canvas.width, canvas.height] = [w, h];
